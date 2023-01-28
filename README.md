@@ -1,9 +1,10 @@
 # kubernetes master and worker nodes install and configuration steps
 
 
-Run on Master worker nodes
+Run on Master worker nodes 
 sudo hostnamectl set-hostname "k8s-master"
 sudo exec bash
+
 Run on Master worker nodes
 sudo hostnamectl set-hostname "k8s-worker-01"
 sudo exec bash
